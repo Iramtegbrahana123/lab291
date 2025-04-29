@@ -1,9 +1,9 @@
-class Student{
+class Demo{
     String name;
     String DOB;
     int age;
    
-  Student(String name,String DOB,int age){
+  Demo(String name,String DOB,int age){
     this.name=name;
     this.DOB=DOB;
     this.age=age;
@@ -15,9 +15,9 @@ class Student{
 
  }
 }
-public class Demo{
+public class Student2{
     public static void main(String args[]){
-        Student s = new Student("iram","08-05-2005",19);
+        Demo s = new Demo("iram","08-05-2005",19);
         s.displayinfo(); 
     }
 }

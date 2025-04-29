@@ -10,7 +10,7 @@ class Demo{
         System.out.println("marks of student is:"+marks);
     }
 }
-class Main {
+public class Course1 {
     public static void main(String args[]){
         Demo d=new Demo(1,400);
         Demo d1=new Demo(2,400);
